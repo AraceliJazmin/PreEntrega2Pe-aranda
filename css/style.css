@@ -1,0 +1,146 @@
+/*estilos del index*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    color: #242424;
+    z-index: 999;
+    top: 0%;
+    right: 0%;
+    /*border-bottom:#919191 0.1px solid*/
+    ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+nav a {
+
+    color: #292929;
+    font-size: 20px;
+    text-decoration: initial;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px; /* Esto crea espacio entre los enlaces. Ajusta según tus necesidades. */
+    justify-content: center;
+}
+
+.menu_icons {
+    display: flex;
+    gap: 20px; /* Esto crea espacio entre los iconos. Ajusta según tus necesidades. */
+    margin-right: 4rem;
+    font-size: large;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #8cbdc7;
+}
+
+h1 {
+    color: #303030;
+    margin-left: 4rem;
+}
+    
+
+#productos {
+    margin-right: 60px;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#footer_contenido {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.imagenes {
+    height: 450px;
+    width: 370px;
+    margin-left: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.imagenes:hover {
+    transform: scale(1.1);
+}
+
+
+
+button {
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    background-color: #0ca492;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    left:100px;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: #4abeb1;
+}
+
+footer {
+    width: 100%;
+    color: #242424;
+    top: 0%;
+    margin-top: 20px;
+    padding: 20px;
+    right: 0%;
+    /*border-bottom:#919191 0.1px solid*/
+    ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#sale {
+    margin-top: 120px;
+}
+
+
+.caja{
+
+    box-sizing:border-box;
+    width: 200px;
+    margin: 10px;
+}
+
+form {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
